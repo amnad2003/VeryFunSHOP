@@ -28,40 +28,6 @@ const games = {
     ]
   },
 
-  freefire: {
-    name: "Free Fire",
-    rates: [
-      ["100 Diamonds", "35 บาท"],
-      ["310 Diamonds", "99 บาท"],
-      ["520 Diamonds", "159 บาท"],
-      ["1,060 Diamonds", "309 บาท"],
-      ["2,180 Diamonds", "599 บาท"]
-    ]
-  },
-
-  rov: {
-    name: "RoV",
-    rates: [
-      ["60 Vouchers", "35 บาท"],
-      ["110 Vouchers", "59 บาท"],
-      ["310 Vouchers", "159 บาท"],
-      ["620 Vouchers", "309 บาท"],
-      ["1,240 Vouchers", "599 บาท"]
-    ]
-  },
-
-  valorant: {
-    name: "Valorant",
-    rates: [
-      ["475 VP", "179 บาท"],
-      ["1,000 VP", "349 บาท"],
-      ["2,050 VP", "699 บาท"],
-      ["3,650 VP", "1,199 บาท"],
-      ["5,350 VP", "1,699 บาท"]
-    ]
-  }
-};
-
 const gameName = document.getElementById("gameName");
 const rates = document.getElementById("rates");
 const contactBtn = document.getElementById("contactBtn");
