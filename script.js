@@ -3,7 +3,7 @@
 // =============================
 
 // เปลี่ยนลิงก์ติดต่อร้านตรงนี้
-const CONTACT_LINK = "https://discord.gg/ใส่ลิงก์ของคุณ";
+const CONTACT_LINK = "https://www.facebook.com/profile.php?id=61590437739407";
 
 // แก้ชื่อแพ็กเกจและราคาได้จากตรงนี้
 const games = {
