@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Rate | เรทราคาเติมเกม</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Game<span>Rate</span></div>
+  <a class="contact-top" id="contactTop" href="#" target="_blank">ติดต่อร้าน ↗</a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="badge">TOP UP PRICE</div>
+    <h1>เรทราคาเติมเกม</h1>
+    <p>เลือกเกมที่ต้องการ แล้วดูเรทราคาได้ทันที</p>
+  </section>
+
+  <section class="games">
+    <button class="game active" data-game="roblox"><div class="icon roblox">R</div><span>Roblox</span></button>
+    <button class="game" data-game="freefire"><div class="icon freefire">🔥</div><span>Free Fire</span></button>
+    <button class="game" data-game="rov"><div class="icon rov">⚔</div><span>RoV</span></button>
+    <button class="game" data-game="valorant"><div class="icon valorant">V</div><span>Valorant</span></button>
+  </section>
+
+  <section class="rate-card">
+    <div class="rate-head">
+      <div>
+        <div class="small">PRICE LIST</div>
+        <h2 id="gameName">Roblox</h2>
+      </div>
+      <div class="status">● เปิดรับเติม</div>
+    </div>
+    <div id="rates" class="rates"></div>
+    <a id="contactBtn" class="contact-btn" href="#" target="_blank">กดติดต่อร้าน</a>
+  </section>
+</main>
+
+<footer>© 2026 GameRate • ราคาสามารถเปลี่ยนแปลงได้</footer>
+<script src="script.js"></script>
+</body>
+</html>
