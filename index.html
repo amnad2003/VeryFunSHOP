@@ -1,46 +1,119 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VeryFun | เรทราคาเติมเกม</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeryFun SHOP | เรทราคาเติมเกม</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <div class="logo">Game<span>Rate</span></div>
-  <a class="contact-top" id="contactTop" href="#" target="_blank">ติดต่อร้าน ↗</a>
-</header>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="grid-bg"></div>
 
-<main>
-  <section class="hero">
-    <div class="badge">VeryFun SHOP</div>
-    <h1>เรทราคาเติมเกม</h1>
-    <p>เลือกเกมที่ต้องการ แล้วดูเรทราคาได้ทันที</p>
-  </section>
+    <header class="header">
+        <a href="#" class="logo">
+            <div class="logo-icon">V</div>
+            <div class="logo-text">VeryFun <span>SHOP</span></div>
+        </a>
 
-  <section class="games">
-    <button class="game active" data-game="roblox"><div class="icon roblox">R</div><span>Roblox</span></button>
-  </section>
+        <a class="contact-top" id="contactTop" href="#" target="_blank">
+            <span>ติดต่อร้าน</span>
+            <b>↗</b>
+        </a>
+    </header>
 
-  <section class="rate-card">
-    <div class="rate-head">
-      <div>
-        <div class="small">PRICE LIST</div>
-        <h2 id="gameName">Roblox</h2>
-      </div>
-      <div class="status">● เปิดรับเติม</div>
-    </div>
-    <div id="rates" class="rates"></div>
-    <a id="contactBtn" class="contact-btn" href="#" target="_blank">กดติดต่อร้าน</a>
-  </section>
-</main>
+    <main>
+        <section class="hero">
+            <div class="hero-badge">
+                <span class="online-dot"></span>
+                VERYFUN SHOP
+            </div>
 
-<footer>© 2026 GameRate • ราคาสามารถเปลี่ยนแปลงได้</footer>
-<script src="script.js"></script>
+            <h1>เรทราคา <span>เติมเกม</span></h1>
+
+            <p>เช็กราคาเติมเกมได้ง่าย ๆ รวดเร็ว ราคาชัดเจน พร้อมให้บริการ</p>
+
+            <div class="hero-line"></div>
+        </section>
+
+        <section class="game-section">
+            <div class="section-title">
+                <span>01</span>
+                <div>
+                    <small>SELECT GAME</small>
+                    <h3>เลือกเกม</h3>
+                </div>
+            </div>
+
+            <div class="games">
+                <button class="game active" data-game="roblox" type="button">
+                    <div class="game-icon roblox">R</div>
+
+                    <div class="game-info">
+                        <strong>Roblox</strong>
+                        <small>Robux</small>
+                    </div>
+
+                    <div class="game-arrow">→</div>
+                </button>
+            </div>
+        </section>
+
+        <section class="rate-card">
+            <div class="card-top-line"></div>
+
+            <div class="rate-head">
+                <div class="game-title">
+                    <div class="mini-icon">R</div>
+
+                    <div>
+                        <div class="small">PRICE LIST</div>
+                        <h2 id="gameName">Roblox</h2>
+                    </div>
+                </div>
+
+                <div class="status">
+                    <span></span>
+                    เปิดรับเติม
+                </div>
+            </div>
+
+            <div class="price-header">
+                <span>จำนวน</span>
+                <span>ราคา</span>
+            </div>
+
+            <div id="rates" class="rates"></div>
+
+            <div class="card-bottom">
+                <div class="notice">
+                    <span>✓</span>
+                    ราคาปัจจุบันอาจมีการเปลี่ยนแปลง
+                </div>
+
+                <a id="contactBtn" class="contact-btn" href="#" target="_blank">
+                    <span>ติดต่อร้าน VeryFun SHOP</span>
+                    <b>↗</b>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">VeryFun<span>SHOP</span></div>
+        <p>ร้านเติมเกมออนไลน์ • บริการรวดเร็ว ราคาชัดเจน</p>
+        <div class="copyright">© 2026 VeryFun SHOP</div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+```
