@@ -26,7 +26,7 @@ const games = {
       ["10,000 Robux", "2,950 บาท"],
       ["15,000 Robux", "4,400 บาท"]
     ]
-  },
+  };
 
 const gameName = document.getElementById("gameName");
 const rates = document.getElementById("rates");
