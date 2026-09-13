@@ -28,7 +28,7 @@ const games = {
 // ใส่ลิงก์ติดต่อร้านตรงนี้
 // =========================================
 
-const CONTACT_URL = "#";
+const CONTACT_URL = "https://www.facebook.com/share/18Pff833fL/";
 
 
 // =========================================
